@@ -10,6 +10,7 @@ public:
 	virtual ~CArcher() {};
 
 	void Attack() override;
+	void Attack(CMonster* pMonster) override;
 
 private:
 

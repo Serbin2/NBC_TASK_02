@@ -10,6 +10,7 @@ public:
 	virtual ~CThief() {};
 
 	void Attack() override;
+	void Attack(CMonster* pMonster) override;
 
 private:
 

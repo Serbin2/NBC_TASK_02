@@ -2,7 +2,7 @@
 
 CMonster::CMonster():
 	m_sName	("NoName"),
-	m_iHP	( 10 ),
+	m_iHP	( 50 ),
 	m_iATK	( 30 ), 
 	m_iDEF	( 10 ), 
 	m_iSPD	( 10 )
@@ -12,7 +12,7 @@ CMonster::CMonster():
 
 CMonster::CMonster(string name) :
 	m_sName	( name ),
-	m_iHP	( 10 ),
+	m_iHP	( 50 ),
 	m_iATK	( 30 ),
 	m_iDEF	( 10 ),
 	m_iSPD	( 10 )
